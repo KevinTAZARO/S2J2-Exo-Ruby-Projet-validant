@@ -2,7 +2,7 @@
 puts "Yo! Donne moi un nombre!"
 print "> "
 
-numbre = gets.chomp.to_i
+number = gets.chomp.to_i
 
 (number - 1).times do
   puts "Salut, ça farte ?"
