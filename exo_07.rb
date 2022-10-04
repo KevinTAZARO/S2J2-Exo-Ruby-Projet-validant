@@ -1,9 +1,9 @@
-#On demande un nombre à user
+#Asking a number to user
 puts "Yo! Donne moi un nombre!"
 print "> "
 
-nombre = gets.chomp.to_i
+number = gets.chomp.to_i
 
-nombre.times do |i|
+number.times do |i|
   puts i+1
 end

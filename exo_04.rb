@@ -1,7 +1,7 @@
-#On demande son année de naissance
+#Ask birthdate user
 puts "Yo! En quelle année es-tu née ?"
 print "> "
 
-naissance = gets.chomp.to_i
+birthdate = gets.chomp.to_i
 
-puts "Okay! en #{naissance + 100} tu auras 100ans"
+puts "Okay! en #{birthdate + 100} tu auras 100ans"
